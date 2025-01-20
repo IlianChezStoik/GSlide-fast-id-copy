@@ -1,5 +1,14 @@
 # Fast document & slide ID copy
 
-This is a simple extension that adds a right-click context menu to copy the ID of a document or slide.
+Extension for Google Slides that allows you more actions :
 
-These options are available in any custom google context menu (right-click) in any empty space of a slide, in a slide thumbnail, in a item (text, image...).
+- Copy the current document ID
+- Copy the current slide ID (editor opened)
+- Go to slide based on the copied ID
+
+These options are available in any custom google context menu by right-clicking in any empty space of a slide, in a slide thumbnail, in a item (text, image...).
+
+> [!WARNING]  
+> Right clicking on a slide thumbnail won't copy it's ID, but the current slide ID (editor opened).
+
+![Menu item](./assets/menu.png)
