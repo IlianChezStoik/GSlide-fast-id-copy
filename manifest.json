@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Fast document & slide ID copy",
+  "version": "1.0",
+  "description": "Add items in context menu to copy Document & Current slide ID",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://docs.google.com/presentation/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/presentation/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
